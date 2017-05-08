@@ -11,3 +11,4 @@ Write a basic blog
 - In your terminal, navigate to the install directory
 - type `pip install -Ur requirements.txt`
 - Run the server with `./manage.py runserver`
+- Goto your website at [http://localhost:8000](http://localhost:8000)
