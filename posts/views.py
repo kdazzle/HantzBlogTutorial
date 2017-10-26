@@ -10,4 +10,5 @@ def index(request):
     context = {
         'posts': Post.objects.all(),
     }
+    print("Hello there")
     return HttpResponse(template.render(context, request))
