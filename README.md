@@ -1,6 +1,6 @@
 # Blog Tutorial
 
-Write a basic blog
+A template project for teaching absolute beginners the basics of web development.
 
 ## Installation
 
