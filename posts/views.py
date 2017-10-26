@@ -11,4 +11,5 @@ def index(request):
         'posts': Post.objects.all(),
     }
     print("Hello there")
+    print("Another one")
     return HttpResponse(template.render(context, request))
