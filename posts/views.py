@@ -10,4 +10,6 @@ def index(request):
     context = {
         'posts': Post.objects.all(),
     }
+    
+    print("this is a change")
     return HttpResponse(template.render(context, request))
